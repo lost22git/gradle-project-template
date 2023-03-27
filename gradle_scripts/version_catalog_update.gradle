@@ -1,4 +1,4 @@
-versionCatalogUpdate {
+tasks.named("versionCatalogUpdate") {
   // sort the catalog by key (default is true)
   sortByKey = true
   // Referenced that are pinned are not automatically updated.

@@ -49,5 +49,5 @@ subprojects {
     useJUnitPlatform()
   }
 
-  apply from: "./_version_catalog_update.gradle"
+  apply from: "./gradle_scripts/version_catalog_update.gradle"
 }
