@@ -10,7 +10,7 @@ versionCatalogUpdate {
 //      groups = ["com.somegroup", "com.someothergroup"]
   }
   keep {
-    keepUnusedVersions = false
+    keepUnusedVersions = true
     keepUnusedLibraries = true
     keepUnusedPlugins = true
 
