@@ -1,12 +1,11 @@
 plugins {
-  id("groovy")
   alias(libs.plugins.versions)
   alias(libs.plugins.version.catalog.update)
 }
 
 allprojects {
   group = "template"
-  version = "1.0.0"
+  version = "0.0.1"
 
   repositories {
     mavenLocal()
@@ -17,7 +16,7 @@ allprojects {
 
 subprojects {
   apply {
-    plugin("groovy")
+    plugin("java")
   }
 
   java {
