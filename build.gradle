@@ -20,8 +20,8 @@ subprojects {
   }
 
   java {
-    sourceCompatibility = JavaVersion.VERSION_19
-    targetCompatibility = JavaVersion.VERSION_19
+    sourceCompatibility = JavaVersion.VERSION_20
+    targetCompatibility = JavaVersion.VERSION_20
   }
 
   dependencies {
@@ -40,11 +40,22 @@ subprojects {
 
   tasks.compileJava {
     options.encoding = "UTF-8"
-    options.compilerArgs.add("-parameters")
-    options.compilerArgs.add("--enable-preview")
+    options.compilerArgs += [
+      "-parameters",
+      "--enable-preview"
+    ]
+  }
+
+  tasks.withType(JavaExec).configureEach {
+    jvmArgs = [
+      "--enable-preview"
+    ]
   }
 
   tasks.test {
+    jvmArgs = [
+      "--enable-preview"
+    ]
     useJUnitPlatform()
   }
 }
