@@ -16,7 +16,10 @@ plugin-jmh = "0.6.6"
 plugin-jmhReport = "0.9.0"
 plugin-nativeimage = "0.9.16"
 plugin-osdetector = "1.7.1"
+plugin-palantir = "2.33.0"
 plugin-shadow = "7.1.2"
+plugin-spotless = "6.19.0"
+plugin-version-catalog-update = "0.8.0"
 plugin-taskinfo = "1.4.0"
 plugin-version-catalog-update = "0.8.0"
 plugin-versions = "0.46.0"
@@ -70,7 +73,9 @@ jmh = { id = "me.champeau.jmh", version.ref = "plugin-jmh" }
 jmhReport = { id = "io.morethan.jmhreport", version.ref = "plugin-jmhReport" }
 nativeimage = { id = "org.graalvm.buildtools.native", version.ref = "plugin-nativeimage" }
 osdetector = { id = "com.google.osdetector", version.ref = "plugin-osdetector" }
+palantir-format = { id = "com.palantir.java-format", version.ref = "plugin-palantir" }
 shadow = { id = "com.github.johnrengelman.shadow", version.ref = "plugin-shadow" }
+spotless = { id = "com.diffplug.spotless", version.ref = "plugin-spotless" }
 taskinfo = { id = "org.barfuin.gradle.taskinfo", version.ref = "plugin-taskinfo" }
 version-catalog-update = { id = "nl.littlerobots.version-catalog-update", version.ref = "plugin-version-catalog-update" }
 versions = { id = "com.github.ben-manes.versions", version.ref = "plugin-versions" }

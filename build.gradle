@@ -1,6 +1,8 @@
 plugins {
   alias(libs.plugins.versions)
   alias(libs.plugins.version.catalog.update)
+  alias(libs.plugins.palantir.format)
+  alias(libs.plugins.spotless)
 }
 
 allprojects {
@@ -60,4 +62,5 @@ subprojects {
   }
 }
 
+apply from: "./gradle_scripts/spotless.gradle"
 apply from: "./gradle_scripts/version_catalog_update.gradle"
