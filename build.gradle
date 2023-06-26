@@ -62,5 +62,6 @@ subprojects {
   }
 }
 
-apply from: "./gradle_scripts/spotless.gradle"
-apply from: "./gradle_scripts/version_catalog_update.gradle"
+apply from: "script/gradle/git_hook.gradle"
+apply from: "script/gradle/spotless.gradle"
+apply from: "script/gradle/version_catalog_update.gradle"
