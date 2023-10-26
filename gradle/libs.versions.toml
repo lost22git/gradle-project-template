@@ -17,12 +17,12 @@ plugin-jmh = "0.6.6"
 plugin-jmhReport = "0.9.0"
 plugin-nativeimage = "0.9.16"
 plugin-osdetector = "1.7.1"
-plugin-palantir = "2.33.0"
+plugin-palantir = "2.38.0"
 plugin-shadow = "7.1.2"
-plugin-spotless = "6.19.0"
+plugin-spotless = "6.22.0"
 plugin-taskinfo = "1.4.0"
-plugin-version-catalog-update = "0.8.0"
-plugin-versions = "0.46.0"
+plugin-version-catalog-update = "0.8.1"
+plugin-versions = "0.49.0"
 record-builder = "36"
 slf4j = "2.0.7"
 
@@ -45,8 +45,8 @@ junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", vers
 junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit" }
 logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
 logstash-logback-encoder = { module = "net.logstash.logback:logstash-logback-encoder", version.ref = "logstash-logback-encoder" }
-mapstruct = {module="org.mapstruct:mapstruct", version.ref="mapstruct"}
-mapstruct-processor={module="org.mapstruct:mapstruct-processor", version.ref="mapstruct"}
+mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "mapstruct" }
+mapstruct-processor = { module = "org.mapstruct:mapstruct-processor", version.ref = "mapstruct" }
 record-builder = { module = "io.soabase.record-builder:record-builder-core", version.ref = "record-builder" }
 record-builder-processor = { module = "io.soabase.record-builder:record-builder-processor", version.ref = "record-builder" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
